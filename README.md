@@ -1,4 +1,11 @@
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Commits](https://img.shields.io/github/commit-activity/m/Lucasyao1985/youtube-desc-downloader)](https://github.com/Lucasyao1985/youtube-desc-downloader/commits) [![yt-dlp](https://img.shields.io/badge/yt--dlp-required-red)](https://github.com/yt-dlp/yt-dlp)
+<div align="center">
+
+[![Release version](https://img.shields.io/github/v/release/Lucasyao1985/youtube-desc-downloader?color=brightgreen&label=Latest&style=for-the-badge)](https://github.com/Lucasyao1985/youtube-desc-downloader/releases "Latest Release")
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/H5MNcFW63r "Discord")
+[![License: Unlicense](https://img.shields.io/badge/-Unlicense-red.svg?style=for-the-badge)](LICENSE "License")
+[![Commits](https://img.shields.io/github/commit-activity/m/Lucasyao1985/youtube-desc-downloader?label=commits&style=for-the-badge)](https://github.com/Lucasyao1985/youtube-desc-downloader/commits "Commit History")
+
+</div>
 
 # YouTube 简介下载器 (youtube-desc-downloader)
 
@@ -42,4 +49,4 @@ youtube-desc-downloader/
 
 ## License
 
-MIT
+Unlicense
