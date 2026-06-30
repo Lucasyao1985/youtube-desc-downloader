@@ -11,14 +11,14 @@
 
 ---
 
-**YouTube 简介下载器是一个 [Claude Code](https://claude.ai) 技能，将 YouTube 视频的完整简介下载为本地 UTF-8 文本文件。** 支持单个视频和批量频道下载。
+**YouTube 简介下载器是一个 [Claude Code](https://claude.ai) 技能，将 YouTube 视频的完整简介下载为本地 UTF-8 文本文件。**
 
-<table>
-<tr><td><b>单个视频下载</b></td><td>将任意 YouTube 视频的完整简介保存为 UTF-8 文本文件。</td></tr>
-<tr><td><b>批量频道下载</b></td><td>一键下载某个频道最近 N 期视频的简介。</td></tr>
-<tr><td><b>丰富输出</b></td><td>每个文件包含视频标题、URL、发布日期和完整简介正文。</td></tr>
-<tr><td><b>基于 yt-dlp</b></td><td>底层使用 yt-dlp 实现稳定可靠的数据提取。</td></tr>
-</table>
+## 功能特点
+
+- 下载单个 YouTube 视频的完整简介
+- 批量下载某个频道最近 N 期视频的简介
+- 输出为 UTF-8 文本文件，包含视频标题、URL 和完整简介正文
+- 需要 yt-dlp 和 Python 3
 
 ---
 
@@ -38,40 +38,29 @@ git clone https://github.com/Lucasyao1985/youtube-desc-downloader.git
 pip install yt-dlp
 ```
 
-## 使用方法
+## 使用示例
 
-向 Claude 分享 YouTube 链接：
+向 Claude 发送以下指令：
 
 ```
 请下载这个视频的简介：https://www.youtube.com/watch?v=xxx
 ```
 
-或者批量下载频道简介：
+或批量下载：
 
 ```
-请下载这个频道最新 10 个视频的简介：https://www.youtube.com/@channel
+把这个频道最新的视频简介都下载下来
 ```
 
-技能会自动识别 YouTube 链接，下载简介并保存为独立的文本文件，包含视频标题、URL、发布日期和完整简介正文。
-
-## 工作原理
-
-```
-YouTube URL → [yt-dlp] → 提取简介 → UTF-8 文本文件
-```
-
-底层使用 yt-dlp 的 `--write-info-json` 和 `--write-description` 参数提取元数据和简介，然后格式化为整洁的文本文件。
-
-## 项目结构
+## 文件结构
 
 ```
 youtube-desc-downloader/
-├── SKILL.md                 # 技能定义文件
-├── README.md                # 英文文档
-├── README.zh-CN.md          # 中文文档
-├── scripts/
-│   └── download-desc.sh     # 核心下载脚本
-└── references/
+├── SKILL.md           # 技能定义文件
+├── README.md          # 英文文档
+├── README.zh-CN.md    # 中文文档
+├── scripts/           # 执行脚本
+└── references/        # 参考资料
 ```
 
 ## 许可证
