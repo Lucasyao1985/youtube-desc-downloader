@@ -1,3 +1,5 @@
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Commits](https://img.shields.io/github/commit-activity/m/Lucasyao1985/youtube-desc-downloader)](https://github.com/Lucasyao1985/youtube-desc-downloader/commits) [![yt-dlp](https://img.shields.io/badge/yt--dlp-required-red)](https://github.com/yt-dlp/yt-dlp)
+
 # YouTube 简介下载器 (youtube-desc-downloader)
 
 将 YouTube 视频的完整简介（描述）下载为本地 UTF-8 文本文件。
