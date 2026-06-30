@@ -1,11 +1,9 @@
-<div align="center">
-
-[![Release version](https://img.shields.io/github/v/release/Lucasyao1985/youtube-desc-downloader?color=brightgreen&label=Latest&style=for-the-badge)](https://github.com/Lucasyao1985/youtube-desc-downloader/releases "Latest Release")
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/H5MNcFW63r "Discord")
-[![License: Unlicense](https://img.shields.io/badge/-Unlicense-red.svg?style=for-the-badge)](LICENSE "License")
-[![Commits](https://img.shields.io/github/commit-activity/m/Lucasyao1985/youtube-desc-downloader?label=commits&style=for-the-badge)](https://github.com/Lucasyao1985/youtube-desc-downloader/commits "Commit History")
-
-</div>
+<p align="center">
+  <a href="https://github.com/Lucasyao1985/youtube-desc-downloader"><img alt="Release version" src="https://img.shields.io/github/v/release/Lucasyao1985/youtube-desc-downloader?color=brightgreen&label=Latest&style=for-the-badge" /></a>
+  <a href="https://www.python.org/downloads/"><img alt="Python Version" src="https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge" /></a>
+  <a href="LICENSE"><img alt="License: Unlicense" src="https://img.shields.io/badge/-Unlicense-red.svg?style=for-the-badge" /></a>
+  <a href="https://github.com/Lucasyao1985/youtube-desc-downloader/commits"><img alt="Commits" src="https://img.shields.io/github/commit-activity/m/Lucasyao1985/youtube-desc-downloader?label=commits&style=for-the-badge" /></a>
+</p>
 
 # YouTube 简介下载器 (youtube-desc-downloader)
 
