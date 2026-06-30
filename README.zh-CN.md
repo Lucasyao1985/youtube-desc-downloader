@@ -52,6 +52,16 @@ pip install yt-dlp
 请下载这个频道最新 10 个视频的简介：https://www.youtube.com/@channel
 ```
 
+技能会自动识别 YouTube 链接，下载简介并保存为独立的文本文件，包含视频标题、URL、发布日期和完整简介正文。
+
+## 工作原理
+
+```
+YouTube URL → [yt-dlp] → 提取简介 → UTF-8 文本文件
+```
+
+底层使用 yt-dlp 的 `--write-info-json` 和 `--write-description` 参数提取元数据和简介，然后格式化为整洁的文本文件。
+
 ## 项目结构
 
 ```
